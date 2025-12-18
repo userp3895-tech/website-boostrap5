@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <style>
+
+        .container-fluid {
+            background-color: rgb(241, 177, 199);
+        }
+
+        .img-fluid {
+            width: 100%;
+            height: 80px;
+        }
+
+        .offredss {
+            font-size: 50px;
+            text-align: center;
+            color: rgb(35, 1, 38);
+        }
+
+        .p {
+            font-size: 26px;
+            text-align: center;
+            color: rgb(21, 5, 31);
+        }
+
+
+
+        .card-footer {
+            padding: .5rem 1rem;
+            background-color: rgba(243, 121, 188, 0.85);
+            border-top: 1px solid rgba(0, 0, 0, .125);
+            height: 50px;
+        }
+
+        .page {
+            height: 100vh;
+        }
+
+        .text-mutedd {
+            color: rgb(8, 8, 8);
+        }
+
+        .centerr {
+            background-color: rgb(254, 218, 230);
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .progratuit {
+            color: aliceblue;
+            background-color: palevioletred;
+            font-size: 30px;
+
+        }
+
+        .textt-mutedd {
+            color: black;
+            font-size: 19px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page d-flex flex-column">
+        <div class="header">
+            <img src="https://www.chiny.me/images/arr_bannp.png" class="img-fluid" alt="">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="content flex-grow-1">
+            <p class="offredss"> "Nos offres"</p>
+
+            <p class="p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus sint veritatis omnis
+                aliquid
+                quisquam facere incidunt inventore esse eum consectetur unde corrupti delectus neque, sunt voluptatibus
+                accusamus quasi? Laudantium, aliquid!</p>
+            <div class="container my-5">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="centerr">
+                            <div class="progratuit">
+                                Gratuit
+                            </div>
+
+                            <div class="card-body">
+                                <h1 class="card-title">0$</h1>
+                                <p class="text-mutedd"><b>For beginners</b></p>
+
+                                <ul class="list-unstyled my-4">
+                                    <li>✔ Basic access</li>
+                                    <li>✔ Limited features</li>
+                                    <li>✖ Priority support</li>
+                                </ul>
+
+                                <button class="btn btn-outline-primary">
+                                    Choose Gratuit
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="centerr">
+                            <div class="progratuit">
+                                Pro
+                            </div>
+
+                            <div class="card-body">
+                                <h1 class="card-title">19€ / mo</h1>
+                                <p class="text-mutedd"><b>For professionals</b></p>
+
+                                <ul class="list-unstyled my-4">
+                                    <li>✔ Full access</li>
+                                    <li>✔ Unlimited features</li>
+                                    <li>✔ Priority support</li>
+                                </ul>
+
+                                <button class="btn btn-outline-primary">
+                                    Choose Pro
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer text-muted">
+            <footer class="card-footer textt-mutedd"> © 2025 MonEntreprise. Tous droits réservés. </footer>
+        </div>
+    </div>
+</body>
+
+</html>
